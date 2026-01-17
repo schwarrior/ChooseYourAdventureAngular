@@ -4,7 +4,6 @@
 	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 	"version": "0.2.0",
 	"configurations": [
-
 		{
 			"type": "chrome",
 			"request": "launch",
@@ -16,6 +15,20 @@
 			"request": "launch",
 			"name": "View App 2 in Chrome",
 			"file": ".\\2-AdventureHtmlSpa\\index.html"
+		},
+		{
+			"remoteRoot": ".\\3-AdventureAngular",
+			"command": "npm start",
+			"name": "Debug App 3",
+			"request": "launch",
+			"type": "node-terminal"
+		},
+				{
+			"remoteRoot": ".\\4-AdventureEngineAngular",
+			"command": "npm start",
+			"name": "Debug App 4",
+			"request": "launch",
+			"type": "node-terminal"
 		}
 	]
 }
